@@ -1,0 +1,44 @@
+
+
+#lista1 li {
+    display:inline;
+    padding-left:3px;
+    padding-right:3px;
+   
+}
+
+#lista1 {
+    font-family:Arial;
+    font-weight:bold;
+    font-size:15px;
+    text-align: center;
+    margin: 0;
+	padding: 0;
+	font-size: 1em;
+	line-height: 1.5em;
+	padding-top: 80px; 
+}
+.separador {
+    color:gray;
+}
+.links{
+    color:black;
+    text-decoration:none;
+}
+#title {
+    
+    background-color: black;
+    color: white;
+    text-align: center;
+	height: 80px;
+    padding-top: 15px;
+	
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+.empresa {
+	display: none;
+    text-align: center;
+}
